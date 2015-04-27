@@ -7,7 +7,7 @@ pkgbase = archlinux-themes-sddm
 	arch = any
 	license = CCPL:cc-by-sa
 	depends = sddm
-    source="https://github.com/Guidobelix/archlinux-themes-sddm/releases/${pkgname}-${pkgver}.tar.bz2"
+	source =  https://github.com/Guidobelix/archlinux-themes-sddm/releases/download/v${pkgver}/${pkgname}-${pkgver}.tar.bz2 
 
 pkgname = archlinux-themes-sddm
-
+"
