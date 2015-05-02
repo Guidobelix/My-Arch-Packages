@@ -11,6 +11,6 @@ source="https://github.com/Guidobelix/sddm-theme-archpaint2/releases/download/v$
 md5sums='04a803916987e1d888f58f527b7e9d98'
 
 package() {
-  mkdir -p ${pkgdir}/usr/share/sddm/themes
-  cp -r $pkgname-$pkgver ${pkgdir}/usr/share/sddm/themes/archpaint2-breeze
+  mkdir -p "${pkgdir}"/usr/share/sddm/themes
+  cp -r $pkgname-$pkgver "${pkgdir}"/usr/share/sddm/themes/archpaint2-breeze
 }
