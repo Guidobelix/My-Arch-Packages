@@ -10,4 +10,3 @@ pkgbase = archlinux-themes-sddm
 	source =  https://github.com/Guidobelix/archlinux-themes-sddm/releases/download/v${pkgver}/${pkgname}-${pkgver}.tar.bz2 
 
 pkgname = archlinux-themes-sddm
-"

@@ -1,0 +1,23 @@
+# Maintainer: Guidobelix <guidobelix at hotmail dot it>
+
+pkgname=sddm-theme-archpaint2-breeze
+pkgver=1.0
+pkgrel=1
+pkgdesc="Adaptation to SDDM of kdm-theme-archpaint2 using breeze components"
+arch=('any')
+url="http://www.archlinux.org/"
+license=('CCPL:cc-by-sa')
+source="https://github.com/Guidobelix/sddm-theme-archpaint2/releases/download/v${pkgver}/${pkgname}-${pkgver}.tar.bz2"
+md5sums='6080364301a25dea241ec0334a90b1c3'
+
+package() {
+  install -d "${pkgdir}"/usr/share/sddm/themes/${pkgname}
+  install -Dm644 $pkgname-$pkgver/{Main.qml,metadata.desktop,screenshot.png,theme.conf} \
+    "${pkgdir}"/usr/share/sddm/themes/${pkgname}
+  install -d "${pkgdir}"/usr/share/sddm/themes/${pkgname}/components
+  install -Dm644 $pkgname-$pkgver/components/{BreezeHeading.qml,InfoPane.qml,LogoutOptions.qml,UserDelegate.qml,UserSelect.qml,BreezeBlock.qml,BreezeLabel.qml,KeyboardLayoutButton.qml,LogoutScreen.qml,UserList.qml} \
+    "${pkgdir}"/usr/share/sddm/themes/${pkgname}/components
+  install -d "${pkgdir}"/usr/share/sddm/themes/${pkgname}/components/artwork
+  install -Dm644 $pkgname-$pkgver/components/artwork/{background_1610.png,background_169.png,background_43.png,background.png,logout_primary.svgz,restart_primary.svgz,shutdown_primary.svgz} \
+    "${pkgdir}"/usr/share/sddm/themes/${pkgname}/components/artwork
+}
