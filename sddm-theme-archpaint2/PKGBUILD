@@ -8,10 +8,9 @@ arch=('any')
 url="http://www.archlinux.org/"
 license=('CCPL:cc-by-sa')
 source="https://github.com/Guidobelix/sddm-theme-archpaint2/releases/download/v${pkgver}/${pkgname}-${pkgver}.tar.bz2"
-md5sums='934d06358a3b9b43032b7c4fdab5a33e'
+md5sums='10dc07b4eab5839625252391a4765a1e'
 
 package() {
-  install -d "${pkgdir}"/usr/share/sddm/themes/sddm-theme-archpaint2
-  install -Dm644 $pkgname-$pkgver/{angle-down.png,background_169.png,background.png,metadata.desktop,screenshot.png,welcome-time-shadowed.png,background_1610.png,background_43.png,Main.qml,password.png,theme.conf} \
-    "${pkgdir}"/usr/share/sddm/themes/sddm-theme-archpaint2
+  mkdir -p ${pkgdir}/usr/share/sddm/themes
+  cp -r $pkgname-$pkgver ${pkgdir}/usr/share/sddm/themes/archpaint2
 }
