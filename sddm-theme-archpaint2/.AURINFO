@@ -1,0 +1,13 @@
+pkgbase = sddm-theme-archpaint2
+	pkgdesc = Adaptation to SDDM of kdm-theme-archpaint2
+	pkgver = 1.0
+	pkgrel = 1
+	url = https://github.com/Guidobelix/sddm-theme-archpaint2
+	install = sddm-theme-archpaint2.install
+	arch = any
+	license = CCPL:cc-by-sa
+	depends = sddm
+	source =  https://github.com/Guidobelix/sddm-theme-archpaint2/releases/download/v${pkgver}/${pkgname}-${pkgver}.tar.bz2
+
+pkgname = sddm-theme-archpaint2
+"
