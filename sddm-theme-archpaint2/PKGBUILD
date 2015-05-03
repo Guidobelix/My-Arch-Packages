@@ -8,7 +8,7 @@ arch=('any')
 url="http://www.archlinux.org/"
 license=('CCPL:cc-by-sa')
 depends=('sddm' 'wallpaper-archpaint2')
-install="$_pkgname.install"
+install="$pkgname.install"
 source="https://github.com/Guidobelix/sddm-theme-archpaint2/releases/download/v${pkgver}/${pkgname}-${pkgver}.tar.bz2"
 md5sums='10dc07b4eab5839625252391a4765a1e'
 
