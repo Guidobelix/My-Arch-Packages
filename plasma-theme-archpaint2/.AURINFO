@@ -1,6 +1,6 @@
 pkgbase = plasma-theme-archpaint2
 	pkgdesc = Plasma 5 theme based on archpaint2 wallpaper
-	pkgver = 1.0
+	pkgver = 1.1
 	pkgrel = 1
 	url = https://github.com/Guidobelix/sddm-theme-archpaint2
 	install = plasma-theme-archpaint2.install
