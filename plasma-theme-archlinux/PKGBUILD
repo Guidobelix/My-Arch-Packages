@@ -10,7 +10,7 @@ license=('CCPL:cc-by-sa')
 depends=('plasma-workspace')
 install="$pkgname.install"
 source="https://github.com/Guidobelix/plasma-theme-archlinux/releases/download/v${pkgver}/${pkgname}-${pkgver}.tar.bz2"
-md5sums='ded8a30aa6a9341290bd6295b0581236'
+md5sums='93146d535a0742712cdb2ccbbaa9cdbe'
 
 package() {
   mkdir -p "${pkgdir}"/usr/share/plasma/look-and-feel
