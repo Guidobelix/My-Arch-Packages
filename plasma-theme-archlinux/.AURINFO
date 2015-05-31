@@ -1,0 +1,12 @@
+pkgbase = plasma-theme-archlinux
+	pkgdesc = Plasma 5 theme inspited by Archlinux minimalism
+	pkgver = 1.0
+	pkgrel = 1
+	url = https://github.com/Guidobelix/sddm-theme-archlinux
+	install = plasma-theme-archlinux.install
+	arch = any
+	license = CCPL:cc-by-sa
+	depends = plasma-workspace
+	source =  https://github.com/Guidobelix/plasma-theme-archlinux/releases/download/v${pkgver}/${pkgname}-${pkgver}.tar.bz2
+
+pkgname = plasma-theme-archlinux
