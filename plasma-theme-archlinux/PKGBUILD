@@ -1,7 +1,7 @@
 # Maintainer: Guidobelix <guidobelix at hotmail dot it>
 
 pkgname=plasma-theme-archlinux
-pkgver=1.1
+pkgver=1.0
 pkgrel=1
 pkgdesc="Plasma 5 theme inspited by Archlinux minimalism"
 arch=('any')
@@ -21,6 +21,6 @@ package() {
   cp -r "$pkgname-$pkgver"/desktoptheme/archlinux "${pkgdir}"/usr/share/plasma/desktoptheme/archlinux
   mkdir -p "${pkgdir}"/usr/share/color-schemes
   for t in Archlinux ArchlinuxDark; do
-    cp  "$pkgname-$pkgver"/color-schemes/$t.colors "${pkgdir}"/usr/share/plasma/color-schemes/
+    cp  "$pkgname-$pkgver"/color-schemes/$t.colors "${pkgdir}"/usr/share/color-schemes/
   done
 }
