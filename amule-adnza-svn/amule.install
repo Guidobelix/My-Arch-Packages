@@ -10,6 +10,7 @@ _config_instructions() {
   echo "amuleweb can be started as 'systemctl start amuleweb'."
   echo "Please follow https://wiki.archlinux.org/index.php/AMule for more information."
   echo "Visit http://forum.adunanza.net/ if you need support."
+  echo "Please note that this is the development version, therefore it has to be considered UNSTABLE!"
   }
  
 post_upgrade() {
