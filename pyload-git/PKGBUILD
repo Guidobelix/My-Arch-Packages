@@ -1,7 +1,7 @@
 # Maintainer: M0Rf30
 
 pkgname='pyload-git'
-pkgver=4679.2e5ad6d
+pkgver=5363.2d5a4fa
 pkgrel=1
 pkgdesc="Downloadtool for One-Click-Hoster written in python. Latest stable branch"
 url="https://github.com/pyload/pyload"
